@@ -1,0 +1,39 @@
+{
+  "name":        "webino/singleton-trait",
+  "description": "Singletons common trait",
+  "type":        "library",
+  "license":     "BSD-3-Clause",
+  "keywords":    ["webino", "library", "trait"],
+  "homepage":    "http://github.com/webino/SingletonTrait",
+  "authors": [
+    {
+      "name":     "Webino, s.r.o.",
+      "email":    "info@webino.sk",
+      "homepage": "http://webino.sk",
+      "role":     "Developer"
+    },
+    {
+      "name":     "Peter Bacinsky",
+      "email":    "peter@bacinsky.sk",
+      "homepage": "http://bacinsky.sk",
+      "role":     "Developer"
+    }
+  ],
+  "require": {
+    "php": "~7.1"
+  },
+  "require-dev": {
+    "webino/webino-dev": "dev-develop",
+    "webino/webino-debug": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {"Webino\\": "src/"},
+    "classmap": ["src/"]
+  },
+  "extra": {
+    "webino-devkit": {
+      "context": ["module", "zend"],
+      "ZendSkeletonApplication": "release-2.5.0"
+    }
+  }
+}

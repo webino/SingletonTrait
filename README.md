@@ -1,0 +1,3 @@
+# Singletons common trait
+
+TODO...

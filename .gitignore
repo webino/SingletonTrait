@@ -1,0 +1,11 @@
+._*
+.~lock.*
+*.log
+.buildpath
+.DS_Store
+.idea
+.project
+.settings
+nbproject
+composer.phar
+!.gitignore
